@@ -1,0 +1,67 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+body{
+    background-color: rgb(79, 79, 79);
+    height: 100%;
+}
+header{
+    margin: -8px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    box-shadow:0px 5px 25px   blue;
+}
+.logo{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+.harley{
+    margin-left: 20px;
+    color: blue;
+}
+.Sup_Dir{
+    display:flex;
+    list-style:none;
+    flex-wrap: wrap;
+}
+.Sup_Dir li a{
+    color: white;
+    
+    display: block;
+
+    text-decoration: none;
+    
+    padding: 1px 20px;
+
+    border-radius: 10px;
+}
+.Sup_Dir li a:hover{
+    background-color: rgba(0, 0, 255, 0.453);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.imagens_moto{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Foto{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px white;
+}
